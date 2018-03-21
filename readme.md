@@ -1,27 +1,13 @@
-## What is this?
 
-Just you wait folks!
+## Node.js with Express.js and PUG templates
 
-## Sample Data
-
-To load sample data, run the following command in your terminal:
+To run project, run the following commands in your terminal:
 
 ```bash
-npm run sample
+npm i
+npm start
 ```
 
-If you have previously loaded in this data, you can wipe your database 100% clean with:
-
-```bash
-npm run blowitallaway
-```
-
-That will populate 16 stores with 3 authors and 41 reviews. The logins for the authors are as follows:
-
-|Name|Email (login)|Password|
-|---|---|---|
-|Wes Bos|wes@example.com|wes|
-|Debbie Downer|debbie@example.com|debbie|
-|Beau|beau@example.com|beau|
+A ```variable.env``` environmental variable should be created inside project/
 
 
