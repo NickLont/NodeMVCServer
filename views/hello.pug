@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  p Hello
+  h2 Sale end in #{h.moment().endOf('day').fromNow()}
+
+  //doctype html
+  //html
+  //  head
+  //
+  //    // In pug, when i have a div i can remove it (div.wrapper === .wrapper)
+  //    .wrapper
+  //
+  //      // To use javascript:
+  //      - const upDog = dog.toUpperCase()
+  //      p.hello Hello! My dogs name is #{upDog}
+  //      span#yo Yo!
+  //      img(src="dog.jpg", alt="Dog_pic")
+  //
+  //    h2
+  //      |  Hello,
+  //      em  how are you?
