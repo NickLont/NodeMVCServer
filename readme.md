@@ -7,7 +7,3 @@ To run project, run the following commands in your terminal:
 npm i
 npm start
 ```
-
-A ```variable.env``` environmental variable should be created inside project/
-
-
