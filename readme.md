@@ -1,5 +1,5 @@
 
-## Bar store with Node.js, Express.js and PUG templates
+## Node.js with Express.js and PUG templates
 
 To run project, run the following commands in your terminal:
 
@@ -7,3 +7,7 @@ To run project, run the following commands in your terminal:
 npm i
 npm start
 ```
+
+A ```variable.env``` environmental variable should be created inside project/
+
+
